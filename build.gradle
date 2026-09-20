@@ -26,8 +26,8 @@ allprojects {
     group = project.maven_group
     String vers_suffix = getenv("VERSION_SUFFIX")
     String full_version = vers_suffix != 'NOT FOUND' && vers_suffix != ''
-        ? "${project.mod_version}-mc${project.minecraft_version}+${vers_suffix}"
-        : "${project.mod_version}-mc${project.minecraft_version}"
+        ? "${project.mod_version}-mc${project.minecraft_version}-playtest+${vers_suffix}"
+        : "${project.mod_version}-mc${project.minecraft_version}-playtest"
 
     version = full_version
     base.archivesName = "${project.mod_id}"
@@ -209,7 +209,7 @@ publisher {
     github {
         repo("${project.gh_owner}/${project.gh_repo}")
         tag(project.version as String)
-        target("26.x")
+        target("26.x-lm")
     }
 
     modrinthDepends {
