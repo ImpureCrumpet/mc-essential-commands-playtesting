@@ -1,0 +1,84 @@
+{
+  "current_minecraft": "26.2",
+  "next_minecraft": "26.3",
+  "reviewed_on": "2026-09-19",
+  "stage": "pins-locked",
+  "dependency_pins": {
+    "minecraft_version": "26.3",
+    "fabric_api_version": "0.161.0+26.3",
+    "loader_version": "0.19.5",
+    "loom_plugin_id": "net.fabricmc.fabric-loom",
+    "loom_version": "1.17.21",
+    "gradle_version": "9.6.0",
+    "jdk_version": "25"
+  },
+  "dependency_status": "Verified 2026-09-19. Matrix row and lock match. Implementation may proceed.",
+  "sources": [
+    {
+      "url": "https://fabricmc.net/2026/09/15/263.html",
+      "role": "Primary Fabric migration overview and named Loom 1.17 / Gradle 9.6.0 / Loader 0.19.5 pins.",
+      "status": "read"
+    },
+    {
+      "url": "https://meta.fabricmc.net/v2/versions/game",
+      "role": "Primary Minecraft version listing; 26.3 is stable.",
+      "status": "read"
+    },
+    {
+      "url": "https://meta.fabricmc.net/v2/versions/loader/26.3",
+      "role": "Primary Fabric Loader listing for 26.3; 0.19.5 is stable.",
+      "status": "read"
+    },
+    {
+      "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/maven-metadata.xml",
+      "role": "Primary Fabric API Maven metadata; latest/release 0.161.0+26.3.",
+      "status": "read"
+    },
+    {
+      "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loom/net.fabricmc.fabric-loom.gradle.plugin/maven-metadata.xml",
+      "role": "Primary Loom plugin metadata; latest 1.17.x stable is 1.17.21.",
+      "status": "read"
+    },
+    {
+      "url": "https://github.com/FabricMC/fabric-example-mod/blob/26.3/gradle.properties",
+      "role": "Corroborates minecraft 26.3, loader 0.19.5, Fabric API 0.161.0+26.3; uses loom 1.17-SNAPSHOT which is not locked.",
+      "status": "read"
+    },
+    {
+      "url": "https://services.gradle.org/distributions/gradle-9.6.0-bin.zip",
+      "role": "Confirms the full three-part Gradle 9.6.0 distribution named by the Fabric 26.3 article.",
+      "status": "read"
+    },
+    {
+      "url": "https://minecraft.wiki/w/Java_Edition_26.3",
+      "role": "Secondary release overview and navigation; corroborate technical claims with primary sources.",
+      "status": "unverified: page inaccessible during preparation"
+    },
+    {
+      "url": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-3",
+      "role": "Primary vanilla release notes and data/resource format changes.",
+      "status": "technical sections read"
+    }
+  ],
+  "required_dependency_fields": [
+    "minecraft_version",
+    "fabric_api_version",
+    "loader_version",
+    "loom_plugin_id",
+    "loom_version",
+    "gradle_version",
+    "jdk_version"
+  ],
+  "dependency_verification": {
+    "verified_on": "2026-09-19",
+    "primary_source_urls": [
+      "https://fabricmc.net/2026/09/15/263.html",
+      "https://meta.fabricmc.net/v2/versions/game",
+      "https://meta.fabricmc.net/v2/versions/loader/26.3",
+      "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/maven-metadata.xml",
+      "https://maven.fabricmc.net/net/fabricmc/fabric-loom/net.fabricmc.fabric-loom.gradle.plugin/maven-metadata.xml",
+      "https://github.com/FabricMC/fabric-example-mod/blob/26.3/gradle.properties",
+      "https://services.gradle.org/distributions/gradle-9.6.0-bin.zip"
+    ]
+  }
+}

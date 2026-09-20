@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "utterance": "add a Fabric mixin only to the mc26.2 subproject",
+      "should_load": true
+    },
+    {
+      "utterance": "port this 1.21.11 mixin to Mojmap names in mc26.2",
+      "should_load": true
+    },
+    {
+      "utterance": "explain how Java mixins work",
+      "should_load": false,
+      "note": "Generic mixin question without a Fabric multi-version subproject"
+    },
+    {
+      "utterance": "switch the whole Fabric project from Yarn to Mojmap",
+      "should_load": false,
+      "note": "Historical mapping migration: use the build guide and applicable portable companions unless a version-specific mixin is named"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {"utterance": "Development on 26.2 is finished. Add 26.3 support to this mod.", "should_load": true, "note": "Authorized completed-version handoff."},
+    {"utterance": "We finished all current-version features earlier. Version up this mod from 26.2 to 26.3.", "should_load": true, "note": "Prior completion statement counts."},
+    {"utterance": "Run mc-fabric-version-up; I have not said whether 26.2 development is done.", "should_load": true, "note": "Explicit invocation loads the skill; read-only assessment and clarification before implementation."},
+    {"utterance": "26.3 is out. Keep working on our 26.2 features.", "should_load": false, "note": "No next-version handoff."},
+    {"utterance": "Scaffold a brand-new Fabric mod.", "should_load": false, "note": "mc-scaffold-new-fabric-subproject; no completed current mod."},
+    {"utterance": "Bump mod_version for a new playtest jar.", "should_load": false, "note": "mc-fabric-mod-version-bump."},
+    {"utterance": "Upgrade PandaServer to 26.3.", "should_load": false, "note": "Server workflow; separate human version decision."},
+    {"utterance": "Port a Yarn 1.21.11 mod directly to 26.3.", "should_load": false, "note": "Outside pinned source version; consult build guide and specific companions."},
+    {"utterance": "Copy this skill to my repos.", "should_load": false, "note": "Skill deployment does not authorize mod porting."},
+    {"utterance": "Compare upstream's 1.21 and 26.x source trees.", "should_load": false, "note": "Research rather than a completed-version implementation handoff."}
+  ]
+}

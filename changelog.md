@@ -1,3 +1,9 @@
+## Essential Commands `v0.42.0` (mc 26.3)
+
+Minecraft 26.3 port of the 0.42.0 feature set. Same commands and config as the 26.2 line below.
+
+--- --- ---
+
 ## Essential Commands `v0.42.0` (mc 26.2)
 
 **Features**

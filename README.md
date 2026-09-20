@@ -110,6 +110,10 @@ Want to teleport to where you died? Enable `allow_back_on_death` in the
 
 - /essentialcommands config reload
 
+## Supported Minecraft versions
+
+This `26.x-lm` line builds and ships **Minecraft 26.3** (Fabric). Other Minecraft lines live on their own version branches.
+
 ## License
 
 Essential Commands is open-sourced software licenced under the [MIT

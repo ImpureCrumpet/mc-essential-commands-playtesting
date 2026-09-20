@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "utterance": "add an mc26.2 Gradle Fabric subproject beside mc1.21.11",
+      "should_load": true
+    },
+    {
+      "utterance": "opt in to backfilling an mc1.21.8 module in the version matrix",
+      "should_load": true
+    },
+    {
+      "utterance": "rewrite our existing 1.21.11 code for removed 26.x Fabric APIs",
+      "should_load": false,
+      "note": "Historical mapping migration: use the build guide and applicable portable companions"
+    },
+    {
+      "utterance": "add a version-specific mixin to the existing mc26.2 subproject",
+      "should_load": false,
+      "note": "mc-isolate-version-mixin"
+    }
+  ]
+}

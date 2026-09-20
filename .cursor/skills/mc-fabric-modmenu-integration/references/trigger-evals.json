@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "utterance": "wire Cloth Config into Mod Menu so this Fabric mod has a Configure button",
+      "should_load": true
+    },
+    {
+      "utterance": "add custom.modmenu metadata and translated description keys to every version subproject",
+      "should_load": true
+    },
+    {
+      "utterance": "fix this shaped crafting recipe JSON for Minecraft 26.1",
+      "should_load": false,
+      "note": "mc-fabric-minecraft-recipe-datapack"
+    },
+    {
+      "utterance": "port the whole mod from Yarn 1.21.11 to Mojmap 26.x",
+      "should_load": false,
+      "note": "Historical mapping migration: use the build guide and applicable portable companions"
+    }
+  ]
+}
